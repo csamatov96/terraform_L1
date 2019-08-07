@@ -1,4 +1,4 @@
-https://www.terraform.io/docs/providers/aws/r/instance.html
+#https://www.terraform.io/docs/providers/aws/r/instance.html
 provider "aws" { #1 
     region="us-east-2" #
 }
