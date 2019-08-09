@@ -10,5 +10,10 @@ resource "aws_security_group" "my_custom_sec_group" { #
     protocol    = "tcp" #
     cidr_blocks = ["0.0.0.0/0"] #not secure 
   }
+  egress {
+    from_port       = 0
+    to_port         = 0
+    protocol        = "-1"
+  }
 
 }
