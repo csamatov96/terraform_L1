@@ -8,7 +8,7 @@ resource "aws_security_group" "my_custom_sec_group" { #
     from_port   = 22 #
     to_port     = 22 #
     protocol    = "-1" #
-    cidr_blocks = "0.0.0.0/0" #not secure 
+    cidr_blocks = ["0.0.0.0/0"] #not secure 
   }
 
 }
