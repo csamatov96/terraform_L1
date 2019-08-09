@@ -18,4 +18,11 @@ resource "aws_security_group" "my_custom_sec_group" { #
 
   }
 
+  tags = {
+    Name = "test_env"
+    Dept = "DevOps"
+    Group = "April"
+    Created_by = "JC"
+  }
+
 }
