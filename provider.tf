@@ -1,3 +1,3 @@
-provider "aws" { #1 
-    region="us-east-2" #
+provider "aws" { #hardcoded 
+    region="us-east-2" #hardcoded
 }
