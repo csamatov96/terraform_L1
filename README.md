@@ -12,3 +12,4 @@ the following stuff were used:
 * terraform aws security group -> [AWS: aws_security_group - Terraform by HashiCorp](https://www.terraform.io/docs/providers/aws/r/security_group.html)
 * terraform tag -> [AWS: aws_instance - Terraform by HashiCorp](https://www.terraform.io/docs/providers/aws/r/instance.html)*
 
+![Visual Graph](image/graphviz.png)
