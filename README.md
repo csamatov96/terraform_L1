@@ -1,4 +1,4 @@
-# terraform_L1-
+# terraform_L1
 
 ## The simple Terraform code that creates an instance and attach a key of ur bastion to that instance 
 
