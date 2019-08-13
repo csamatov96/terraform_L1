@@ -1,8 +1,7 @@
 # terraform_L1-
 
 The simple Terraform code that creates an instance and attach a key of ur bastion to that instance 
-The custom security group which will have inbound SSH to whole world and outbound of all ports and protocols to all
-hardcoding principle applied  
+The custom security group which will have inbound SSH to whole world and outbound of all ports and protocols to all  
 
 the following stuff were used: 
 .gitignore file was added

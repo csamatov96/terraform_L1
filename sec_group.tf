@@ -13,7 +13,7 @@ resource "aws_security_group" "my_custom_sec_group" { #
   egress { #OUT
     from_port       = 0
     to_port         = 0
-    protocol        = "-1" #means all protocl 
+    protocol        = "-1" #all protocols 
     cidr_blocks = ["0.0.0.0/0"] 
 
   }
